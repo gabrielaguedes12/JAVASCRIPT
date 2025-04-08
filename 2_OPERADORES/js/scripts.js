@@ -33,3 +33,39 @@ console.log("oi, " + " tudo" +" bem?");
 
 //7- interpolação
 console.log(`A soma de  2 + 2 é: ${2 + 2}`);
+
+console.log(`podemos executar qualquer coisa aqui ${console.log("teste")}`);
+
+
+//8. booleano
+console.log(true);
+
+console.log(5>20);
+console.log(30>10);
+
+console.log(typeof false);
+
+//9.comparações
+console.log(5 <= 5);
+console.log(5 < 5);
+console.log(10 == 10);
+console.log(10 == 9);
+
+//10.idêntico
+console.log(9 =="9");
+console.log(9 === "9");
+console.log(9 != "9");
+console.log(9 !== "9");
+console.log(9 === 9);
+console.log(9 + "9");
+
+//11. logicos
+console.log(true && true);
+console.log(true && false);
+console.log(5 > 2  && 2 < 10);
+console.log(5 > 2  && "matheus" == 1);
+console.log(5 > 2  || "matheus" == 1);
+
+
+// && and    ||  or   ! not
+//12. tabela verdade 
